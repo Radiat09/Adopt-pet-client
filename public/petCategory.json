@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "name": "Dogs",
+    "image": "https://i.ibb.co/G34zmqq/matt-nelson-a-I3-EBLvcyu4-unsplash.jpg",
+    "popularBreeds": [
+      "Labrador Retriever",
+      "German Shepherd",
+      "Golden Retriever"
+    ],
+    "characteristics": "Known for loyalty, companionship, and a wide range of sizes and temperaments."
+  },
+  {
+    "id": 2,
+    "name": "Cats",
+    "image": "https://i.ibb.co/XSZWBfB/jae-park-7-GX5a-ICb5i4-unsplash.jpg",
+    "popularBreeds": ["Persian", "Maine Coon", "Siamese"],
+    "characteristics": "Independent, playful, and known for their grooming habits."
+  },
+  {
+    "id": 3,
+    "name": "Fish",
+    "image": "https://i.ibb.co/N1Z8zfg/pablo-sh6anux7m-g-unsplash.jpg",
+    "types": ["Tropical fish", "Goldfish", "Betta fish"],
+    "characteristics": "Colorful, diverse, and relatively low-maintenance."
+  },
+  {
+    "id": 4,
+    "name": "Birds",
+    "image": "https://i.ibb.co/vYgmzVx/alexander-grey-W5-D-7pa-Ua0-unsplash.jpg",
+    "types": ["Parrots", "Canaries", "Finches"],
+    "characteristics": "Intelligent, social, and often known for their ability to mimic sounds."
+  },
+  {
+    "id": 5,
+    "name": "Small Mammals",
+    "image": "https://i.ibb.co/XZZChRz/Small-Animal-Slide.webp",
+    "types": ["Hamsters", "Rabbits", "Guinea pigs"],
+    "characteristics": "Adorable, small, and suitable for indoor habitats."
+  },
+  {
+    "id": 6,
+    "name": "Reptiles",
+    "image": "https://i.ibb.co/CVNvhxR/be89f3e76b0d32f7c385294d4dd9a90d18df845b-3.webp",
+    "types": ["Turtles", "Snakes", "Geckos"],
+    "characteristics": "Varied in size and care requirements, can be fascinating to observe."
+  }
+]
