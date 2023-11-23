@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 const PetCard = ({ pet }) => {
   const { image, name, characteristics } = pet;
   return (
-    <div className="flex flex-col justify-between gap-5 shadow w-fit pb-3">
+    <div className="flex flex-col justify-between gap-5 shadow w-full  pb-3 mx-auto">
       <img
         src={image}
         className="w-full h-72 object-cover"
