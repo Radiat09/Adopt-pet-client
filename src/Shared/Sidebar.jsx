@@ -20,7 +20,7 @@ const Sidebar = () => {
               {user.displayName}
             </p> */}
           <button
-            className="btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm w-full"
+            className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm w-full"
             // onClick={logout}
           >
             Logout
@@ -31,13 +31,13 @@ const Sidebar = () => {
       <div className="w-full flex flex-col items-center gap-4 ">
         <NavLink
           to="/login"
-          className="btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm w-full"
+          className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm w-full"
         >
           Login
         </NavLink>
         <NavLink
           to="register"
-          className="btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm w-full"
+          className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm w-full"
         >
           Register
         </NavLink>
@@ -48,8 +48,8 @@ const Sidebar = () => {
         to="/"
         className={({ isActive }) =>
           isActive
-            ? "btn text-red-500 border-red-500 btn-sm"
-            : "btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm "
+            ? "btn text-yellow-500 border-yellow-500 btn-sm"
+            : "btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm"
         }
       >
         Home
@@ -58,8 +58,8 @@ const Sidebar = () => {
         to="/addbooks"
         className={({ isActive }) =>
           isActive
-            ? "btn text-red-500 border-red-500 btn-sm"
-            : "btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm "
+            ? "btn text-yellow-500 border-yellow-500 btn-sm"
+            : "btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm"
         }
       >
         Add Books
@@ -68,8 +68,8 @@ const Sidebar = () => {
         to="/allbooks"
         className={({ isActive }) =>
           isActive
-            ? "btn text-red-500 border-red-500 btn-sm"
-            : "btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm "
+            ? "btn text-yellow-500 border-yellow-500 btn-sm"
+            : "btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm"
         }
       >
         All Books
@@ -78,8 +78,8 @@ const Sidebar = () => {
         to="/borrowedbooks"
         className={({ isActive }) =>
           isActive
-            ? "btn text-red-500 border-red-500 btn-sm"
-            : "btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm "
+            ? "btn text-yellow-500 border-yellow-500 btn-sm"
+            : "btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm"
         }
       >
         Borrowrd Books

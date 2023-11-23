@@ -1,5 +1,4 @@
 import { Link, NavLink } from "react-router-dom";
-
 // import useAuth from '../../hooks/useAuth';
 
 const Navbar = () => {
@@ -16,7 +15,7 @@ const Navbar = () => {
   };
   // console.log(user);
   return (
-    <div className=" w-full max-w-[1200px] px-[25px] mx-auto">
+    <div className="w-full px-[25px]">
       <div className="flex-none lg:hidden">
         <label
           htmlFor="my-drawer-3"
@@ -40,57 +39,49 @@ const Navbar = () => {
       </div>
       <div className="flex-1 text-4xl font-extrabold">
         <Link to="/">
-          <span className="text-red-500">Livaro</span> Li.
+          My<span className="text-yellow-500">Pet</span>
         </Link>
       </div>
-      <div className="flex-none hidden lg:block">
-        <div className="flex items-center gap-4">
-          {/* Navbar menu content here */}
-          <NavLink
-            to="/"
-            className={({ isActive }) =>
-              isActive
-                ? "btn text-red-500 border-red-500 hover:text-red-500 hover:border-red-500 btn-sm rounded-none"
-                : "btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm  rounded-none"
-            }
-          >
-            Home
-          </NavLink>
-          <NavLink
-            to="/addbooks"
-            className={({ isActive }) =>
-              isActive
-                ? "btn text-red-500 border-red-500 hover:text-red-500 hover:border-red-500 btn-sm rounded-none"
-                : "btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm rounded-none"
-            }
-          >
-            Add Books
-          </NavLink>
-          <NavLink
-            to="/allbooks"
-            className={({ isActive }) =>
-              isActive
-                ? "btn text-red-500 border-red-500 hover:text-red-500 hover:border-red-500 btn-sm rounded-none"
-                : "btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm  rounded-none"
-            }
-          >
-            All Books
-          </NavLink>
-          <NavLink
-            to="/borrowedbooks"
-            className={({ isActive }) =>
-              isActive
-                ? "btn text-red-500 border-red-500 hover:text-red-500 hover:border-red-500 btn-sm rounded-none"
-                : "btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm  rounded-none"
-            }
-          >
-            Borrowrd Books
-          </NavLink>
+      {/* Navbar menu content here */}
+      <div className="hidden flex-1  lg:flex justify-start items-center gap-3">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive
+              ? "text-yellow-500 font-bold"
+              : "text-gray-700 font-bold hover:text-yellow-500"
+          }
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to="/addbooks"
+          className={({ isActive }) =>
+            isActive
+              ? "text-yellow-500 font-bold  whitespace-nowrap"
+              : "text-gray-700 font-bold hover:text-yellow-500 whitespace-nowrap"
+          }
+        >
+          Pet Listing
+        </NavLink>
+        <NavLink
+          to="/allbooks"
+          className={({ isActive }) =>
+            isActive
+              ? "text-yellow-500 font-bold  whitespace-nowrap"
+              : "text-gray-700 font-bold hover:text-yellow-500 whitespace-nowrap"
+          }
+        >
+          Donation Campaigns
+        </NavLink>
+      </div>
+      <div className="hidden lg:block">
+        <div className="flex justify-between items-center gap-4">
           {/* {user ? ( */}
           <div>
             <div className="dropdown dropdown-bottom dropdown-end cursor-pointer">
               <div tabIndex={0} className="avatar m-1">
-                <div className="w-9 rounded-full ring ring-secondary ring-offset-pink-500 ring-offset-2">
+                <div className="w-9 rounded-full ring ring-secondary ring-offset-yellow-600 ring-offset-2">
                   {/* {user.photoURL ? ( */}
                   {/* <img src={user.photoURL} /> */}
                   {/* ) : ( */}
@@ -105,12 +96,17 @@ const Navbar = () => {
                 {/* <li>
                     <NavLink to="/profile">Profile</NavLink>
                   </li> */}
-                <li className="whitespace-nowrap font-bold text-red-700 text-lg">
+                <li className="whitespace-nowrap font-bold text-yellow-700 text-lg">
                   {/* {user.displayName} */}
                 </li>
                 <li>
+                  <button className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm rounded-none">
+                    DashBoard
+                  </button>
+                </li>
+                <li>
                   <button
-                    className="btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm rounded-none"
+                    className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm rounded-none"
                     // onClick={logout}
                   >
                     Logout
@@ -123,13 +119,13 @@ const Navbar = () => {
           <div className="navbar-end flex items-center gap-4 ">
             <NavLink
               to="/login"
-              className="btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm rounded-none"
+              className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm rounded-none"
             >
               Login
             </NavLink>
             <NavLink
               to="register"
-              className="btn bg-red-500 hover:text-red-500 hover:border-red-500 text-white btn-sm rounded-none"
+              className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm rounded-none"
             >
               Register
             </NavLink>

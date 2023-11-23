@@ -5,7 +5,7 @@ const Footer = () => {
         <footer className="footer p-10  text-base-content">
           <aside>
             <div className="flex-1 text-4xl font-extrabold">
-              <span className="text-red-500">Livaro</span> Li.
+              My<span className="text-yellow-500">Pet</span>
             </div>
             <p>
               ACME Industries Ltd.

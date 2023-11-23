@@ -1,6 +1,7 @@
 import Navbar from "../Shared/Navbar";
 import Sidebar from "../Shared/Sidebar";
 import Footer from "../Shared/Footer";
+import PropTypes from "prop-types";
 
 const LayoutMain = ({ children }) => {
   return (
@@ -8,7 +9,7 @@ const LayoutMain = ({ children }) => {
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content flex flex-col">
         {/* Navbar */}
-        <div className="w-full navbar bg-base-300 py-5">
+        <div className="w-full navbar py-6 border-b">
           <Navbar></Navbar>
         </div>
         {/* Page content here */}
@@ -30,4 +31,7 @@ const LayoutMain = ({ children }) => {
   );
 };
 
+LayoutMain.propTypes = {
+  children: PropTypes.node,
+};
 export default LayoutMain;
