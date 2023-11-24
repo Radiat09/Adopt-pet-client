@@ -1,0 +1,458 @@
+[
+  {
+    "image": "https://i.ibb.co/G34zmqq/matt-nelson-a-I3-EBLvcyu4-unsplash.jpg",
+    "category": "dogs",
+    "name": "Buddy",
+    "breed": "Golden Retriever",
+    "age": 3,
+    "color": "Golden",
+    "weight_kg": 30,
+    "vaccinated": true
+  },
+  {
+    "image": "https://i.ibb.co/C2QsnzC/jae-park-7-GX5a-ICaawdb5i4-unsplash.jpg",
+    "category": "cats",
+    "name": "Whiskers",
+    "breed": "Siamese",
+    "age": 2,
+    "color": "Seal Point",
+    "weight_kg": 5,
+    "vaccinated": true
+  },
+  {
+    "image": "https://i.ibb.co/N1Z8zfg/pablo-sh6anux7m-g-unsplash.jpg",
+    "category": "fish",
+    "name": "Splash",
+    "species": "Beta",
+    "tank_size_liters": 10,
+    "color": "Blue",
+    "freshwater": true
+  },
+  {
+    "image": "https://i.ibb.co/vYgmzVx/alexander-grey-W5-D-7pa-Ua0-unsplash.jpg",
+    "category": "birds",
+    "name": "Tweetie",
+    "species": "Budgerigar",
+    "age": 1,
+    "color": "Green",
+    "can_speak": false
+  },
+  {
+    "image": "https://i.ibb.co/XZZChRz/Small-Animal-Slide.webp",
+    "category": "small_mammals",
+    "name": "Nibbles",
+    "species": "Hamster",
+    "age": 1,
+    "color": "Brown",
+    "wheel_activity": true
+  },
+  {
+    "image": "https://i.ibb.co/CVNvhxR/be89f3e76b0d32f7c385294d4dd9a90d18df845b-3.webp",
+    "category": "reptiles",
+    "name": "Spike",
+    "species": "Bearded Dragon",
+    "age": 4,
+    "color": "Tan",
+    "heat_lamp": true
+  },
+  {
+    "image": "https://i.ibb.co/G34zmqq/matt-nelson-a-I3-EBLvcyu4-unsplash.jpg",
+    "category": "dogs",
+    "name": "Coco",
+    "breed": "Poodle",
+    "age": 2,
+    "color": "Apricot",
+    "weight_kg": 8,
+    "vaccinated": false
+  },
+  {
+    "image": "https://i.ibb.co/C2QsnzC/jae-park-7-GX5a-ICaawdb5i4-unsplash.jpg",
+    "category": "cats",
+    "name": "Mittens",
+    "breed": "Maine Coon",
+    "age": 4,
+    "color": "Tabby",
+    "weight_kg": 7,
+    "vaccinated": true
+  },
+  {
+    "image": "https://i.ibb.co/N1Z8zfg/pablo-sh6anux7m-g-unsplash.jpg",
+    "category": "fish",
+    "name": "Finny",
+    "species": "Goldfish",
+    "tank_size_liters": 5,
+    "color": "Orange",
+    "freshwater": true
+  },
+  {
+    "image": "https://i.ibb.co/vYgmzVx/alexander-grey-W5-D-7pa-Ua0-unsplash.jpg",
+    "category": "birds",
+    "name": "Feather",
+    "species": "Cockatiel",
+    "age": 3,
+    "color": "Yellow",
+    "can_speak": true
+  },
+  {
+    "image": "https://i.ibb.co/XZZChRz/Small-Animal-Slide.webp",
+    "category": "small_mammals",
+    "name": "Squeaky",
+    "species": "Guinea Pig",
+    "age": 2,
+    "color": "White",
+    "wheel_activity": false
+  },
+  {
+    "image": "https://i.ibb.co/CVNvhxR/be89f3e76b0d32f7c385294d4dd9a90d18df845b-3.webp",
+    "category": "reptiles",
+    "name": "Slither",
+    "species": "Ball Python",
+    "age": 5,
+    "color": "Brown",
+    "heat_lamp": false
+  },
+  {
+    "image": "https://i.ibb.co/G34zmqq/matt-nelson-a-I3-EBLvcyu4-unsplash.jpg",
+    "category": "dogs",
+    "name": "Rocky",
+    "breed": "German Shepherd",
+    "age": 4,
+    "color": "Black and Tan",
+    "weight_kg": 35,
+    "vaccinated": true
+  },
+  {
+    "image": "https://i.ibb.co/C2QsnzC/jae-park-7-GX5a-ICaawdb5i4-unsplash.jpg",
+    "category": "cats",
+    "name": "Shadow",
+    "breed": "Persian",
+    "age": 3,
+    "color": "Gray",
+    "weight_kg": 6,
+    "vaccinated": true
+  },
+  {
+    "image": "https://i.ibb.co/N1Z8zfg/pablo-sh6anux7m-g-unsplash.jpg",
+    "category": "fish",
+    "name": "Bubbles",
+    "species": "Tetra",
+    "tank_size_liters": 15,
+    "color": "Neon Blue",
+    "freshwater": true
+  },
+  {
+    "image": "https://i.ibb.co/vYgmzVx/alexander-grey-W5-D-7pa-Ua0-unsplash.jpg",
+    "category": "birds",
+    "name": "Polly",
+    "species": "Parrotlet",
+    "age": 2,
+    "color": "Blue and Green",
+    "can_speak": true
+  },
+  {
+    "image": "https://i.ibb.co/XZZChRz/Small-Animal-Slide.webp",
+    "category": "small_mammals",
+    "name": "Chubby",
+    "species": "Dwarf Hamster",
+    "age": 1,
+    "color": "Gray",
+    "wheel_activity": true
+  },
+  {
+    "image": "https://i.ibb.co/CVNvhxR/be89f3e76b0d32f7c385294d4dd9a90d18df845b-3.webp",
+    "category": "reptiles",
+    "name": "Ziggy",
+    "species": "Chameleon",
+    "age": 2,
+    "color": "Multicolored",
+    "heat_lamp": true
+  },
+  {
+    "image": "https://i.ibb.co/G34zmqq/matt-nelson-a-I3-EBLvcyu4-unsplash.jpg",
+    "category": "dogs",
+    "name": "Max",
+    "breed": "Labrador Retriever",
+    "age": 3,
+    "color": "Chocolate",
+    "weight_kg": 32,
+    "vaccinated": true
+  },
+  {
+    "image": "https://i.ibb.co/C2QsnzC/jae-park-7-GX5a-ICaawdb5i4-unsplash.jpg",
+    "category": "cats",
+    "name": "Luna",
+    "breed": "Ragdoll",
+    "age": 2,
+    "color": "Blue Bicolor",
+    "weight_kg": 5,
+    "vaccinated": false
+  },
+  {
+    "image": "https://i.ibb.co/N1Z8zfg/pablo-sh6anux7m-g-unsplash.jpg",
+    "category": "fish",
+    "name": "Gill",
+    "species": "Guppy",
+    "tank_size_liters": 8,
+    "color": "Yellow",
+    "freshwater": true
+  },
+  {
+    "image": "https://i.ibb.co/vYgmzVx/alexander-grey-W5-D-7pa-Ua0-unsplash.jpg",
+    "category": "birds",
+    "name": "Sunny",
+    "species": "Canary",
+    "age": 1,
+    "color": "Yellow",
+    "can_speak": false
+  },
+  {
+    "image": "https://i.ibb.co/XZZChRz/Small-Animal-Slide.webp",
+    "category": "small_mammals",
+    "name": "Whisk",
+    "species": "Rabbit",
+    "age": 2,
+    "color": "White",
+    "wheel_activity": false
+  },
+  {
+    "image": "https://i.ibb.co/CVNvhxR/be89f3e76b0d32f7c385294d4dd9a90d18df845b-3.webp",
+    "category": "reptiles",
+    "name": "Rex",
+    "species": "Gecko",
+    "age": 4,
+    "color": "Leopard",
+    "heat_lamp": false
+  },
+  {
+    "image": "https://i.ibb.co/G34zmqq/matt-nelson-a-I3-EBLvcyu4-unsplash.jpg",
+    "category": "dogs",
+    "name": "Rosie",
+    "breed": "Bulldog",
+    "age": 2,
+    "color": "White and Brown",
+    "weight_kg": 22,
+    "vaccinated": true
+  },
+  {
+    "image": "https://i.ibb.co/C2QsnzC/jae-park-7-GX5a-ICaawdb5i4-unsplash.jpg",
+    "category": "cats",
+    "name": "Simba",
+    "breed": "Bengal",
+    "age": 1,
+    "color": "Spotted",
+    "weight_kg": 4,
+    "vaccinated": true
+  },
+  {
+    "image": "https://i.ibb.co/N1Z8zfg/pablo-sh6anux7m-g-unsplash.jpg",
+    "category": "fish",
+    "name": "Spike",
+    "species": "Angelfish",
+    "age": 2,
+    "color": "Silver",
+    "weight_kg": null
+  },
+  {
+    "image": "https://i.ibb.co/vYgmzVx/alexander-grey-W5-D-7pa-Ua0-unsplash.jpg",
+    "category": "birds",
+    "name": "Blue",
+    "species": "Lovebird",
+    "age": 1,
+    "color": "Blue",
+    "weight_kg": null
+  },
+  {
+    "image": "https://i.ibb.co/XZZChRz/Small-Animal-Slide.webp",
+    "category": "small_mammals",
+    "name": "Fluffy",
+    "species": "Ferret",
+    "age": 3,
+    "color": "Sable",
+    "weight_kg": null,
+    "wheel_activity": true
+  },
+  {
+    "image": "https://i.ibb.co/CVNvhxR/be89f3e76b0d32f7c385294d4dd9a90d18df845b-3.webp",
+    "category": "reptiles",
+    "name": "Rango",
+    "species": "Iguana",
+    "age": 2,
+    "color": "Green",
+    "weight_kg": null,
+    "heat_lamp": true
+  },
+  {
+    "image": "https://i.ibb.co/G34zmqq/matt-nelson-a-I3-EBLvcyu4-unsplash.jpg",
+    "category": "dogs",
+    "name": "Milo",
+    "breed": "Dachshund",
+    "age": 1,
+    "color": "Red",
+    "weight_kg": 10,
+    "vaccinated": false
+  },
+  {
+    "image": "https://i.ibb.co/C2QsnzC/jae-park-7-GX5a-ICaawdb5i4-unsplash.jpg",
+    "category": "cats",
+    "name": "Whisper",
+    "breed": "Sphynx",
+    "age": 2,
+    "color": "Hairless",
+    "weight_kg": 3,
+    "vaccinated": true
+  },
+  {
+    "image": "https://i.ibb.co/N1Z8zfg/pablo-sh6anux7m-g-unsplash.jpg",
+    "category": "fish",
+    "name": "Nemo",
+    "species": "Clownfish",
+    "age": 1,
+    "color": "Orange",
+    "weight_kg": null
+  },
+  {
+    "image": "https://i.ibb.co/vYgmzVx/alexander-grey-W5-D-7pa-Ua0-unsplash.jpg",
+    "category": "birds",
+    "name": "Charlie",
+    "species": "Finch",
+    "age": 2,
+    "color": "Brown",
+    "weight_kg": null
+  },
+  {
+    "image": "https://i.ibb.co/XZZChRz/Small-Animal-Slide.webp",
+    "category": "small_mammals",
+    "name": "Coco",
+    "species": "Chinchilla",
+    "age": 1,
+    "color": "Gray",
+    "weight_kg": null,
+    "wheel_activity": true
+  },
+  {
+    "image": "https://i.ibb.co/CVNvhxR/be89f3e76b0d32f7c385294d4dd9a90d18df845b-3.webp",
+    "category": "reptiles",
+    "name": "Sapphire",
+    "species": "Blue Tongue Skink",
+    "age": 3,
+    "color": "Blue",
+    "weight_kg": null,
+    "heat_lamp": false
+  },
+  {
+    "image": "https://i.ibb.co/G34zmqq/matt-nelson-a-I3-EBLvcyu4-unsplash.jpg",
+    "category": "dogs",
+    "name": "Lola",
+    "breed": "Shih Tzu",
+    "age": 2,
+    "color": "White",
+    "weight_kg": 6,
+    "vaccinated": true
+  },
+  {
+    "image": "https://i.ibb.co/C2QsnzC/jae-park-7-GX5a-ICaawdb5i4-unsplash.jpg",
+    "category": "cats",
+    "name": "Oreo",
+    "breed": "Domestic Shorthair",
+    "age": 3,
+    "color": "Black and White",
+    "weight_kg": 4,
+    "vaccinated": false
+  },
+  {
+    "image": "https://i.ibb.co/N1Z8zfg/pablo-sh6anux7m-g-unsplash.jpg",
+    "category": "fish",
+    "name": "Coral",
+    "species": "Swordtail",
+    "age": 1,
+    "color": "Red",
+    "weight_kg": null
+  },
+  {
+    "image": "https://i.ibb.co/vYgmzVx/alexander-grey-W5-D-7pa-Ua0-unsplash.jpg",
+    "category": "birds",
+    "name": "Kiwi",
+    "species": "Budgerigar",
+    "age": 1,
+    "color": "Yellow",
+    "weight_kg": null
+  },
+  {
+    "image": "https://i.ibb.co/XZZChRz/Small-Animal-Slide.webp",
+    "category": "small_mammals",
+    "name": "Pebbles",
+    "species": "Gerbil",
+    "age": 1,
+    "color": "Sandy",
+    "weight_kg": null,
+    "wheel_activity": true
+  },
+  {
+    "image": "https://i.ibb.co/CVNvhxR/be89f3e76b0d32f7c385294d4dd9a90d18df845b-3.webp",
+    "category": "reptiles",
+    "name": "Zara",
+    "species": "Corn Snake",
+    "age": 2,
+    "color": "Orange",
+    "weight_kg": null,
+    "heat_lamp": true
+  },
+  {
+    "image": "https://i.ibb.co/G34zmqq/matt-nelson-a-I3-EBLvcyu4-unsplash.jpg",
+    "category": "dogs",
+    "name": "Leo",
+    "breed": "Boxer",
+    "age": 3,
+    "color": "Fawn",
+    "weight_kg": 28,
+    "vaccinated": true
+  },
+  {
+    "image": "https://i.ibb.co/C2QsnzC/jae-park-7-GX5a-ICaawdb5i4-unsplash.jpg",
+    "category": "cats",
+    "name": "Mocha",
+    "breed": "Ragamuffin",
+    "age": 2,
+    "color": "Chocolate",
+    "weight_kg": 6,
+    "vaccinated": true
+  },
+  {
+    "image": "https://i.ibb.co/N1Z8zfg/pablo-sh6anux7m-g-unsplash.jpg",
+    "category": "fish",
+    "name": "Sky",
+    "species": "Betta",
+    "age": 1,
+    "color": "Sky Blue",
+    "weight_kg": null
+  },
+  {
+    "image": "https://i.ibb.co/vYgmzVx/alexander-grey-W5-D-7pa-Ua0-unsplash.jpg",
+    "category": "birds",
+    "name": "Piper",
+    "species": "Parakeet",
+    "age": 2,
+    "color": "Green",
+    "weight_kg": null
+  },
+  {
+    "image": "https://i.ibb.co/XZZChRz/Small-Animal-Slide.webp",
+    "category": "small_mammals",
+    "name": "Cinnamon",
+    "species": "Hedgehog",
+    "age": 1,
+    "color": "Cinnamon",
+    "weight_kg": null,
+    "wheel_activity": false
+  },
+  {
+    "image": "https://i.ibb.co/CVNvhxR/be89f3e76b0d32f7c385294d4dd9a90d18df845b-3.webp",
+    "category": "reptiles",
+    "name": "Apollo",
+    "species": "Leopard Gecko",
+    "age": 1,
+    "color": "Yellow",
+    "weight_kg": null,
+    "heat_lamp": false
+  }
+]
