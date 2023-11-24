@@ -6,7 +6,7 @@ import { FaArrowTurnDown } from "react-icons/fa6";
 const PetCategory = () => {
   const [petCategory, setPetCategory] = useState([]);
   useEffect(() => {
-    axios.get("petCategory.json").then((res) => {
+    axios.get("http://localhost:9000/api/v1/categories").then((res) => {
       setPetCategory(res.data);
     });
   }, []);
@@ -17,7 +17,7 @@ const PetCategory = () => {
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
         {petCategory?.map((pet) => (
-          <PetCard key={pet.id} pet={pet}></PetCard>
+          <PetCard key={pet._id} pet={pet}></PetCard>
         ))}
       </div>
     </div>

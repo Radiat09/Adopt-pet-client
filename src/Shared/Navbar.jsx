@@ -55,7 +55,7 @@ const Navbar = () => {
           Home
         </NavLink>
         <NavLink
-          to="/addbooks"
+          to="/petListing"
           className={({ isActive }) =>
             isActive
               ? "text-yellow-500 font-bold  whitespace-nowrap"
