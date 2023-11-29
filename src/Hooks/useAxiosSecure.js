@@ -1,10 +1,11 @@
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-import useAuth from "../useAuth/useAuth";
+import useAuth from "./useAuth/useAuth";
 
 const instance = axios.create({
-  baseURL: "http://localhost:9000/api/v1",
+  baseURL: "https://adopt-pet-server.vercel.app/api/v1",
   //http://localhost:9000
+  //https://adopt-pet-server.vercel.app
 });
 const useAxiosSecure = () => {
   const navigate = useNavigate();

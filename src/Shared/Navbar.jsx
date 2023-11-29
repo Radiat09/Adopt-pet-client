@@ -1,8 +1,8 @@
 import { Link, NavLink } from "react-router-dom";
-// import useAuth from '../../hooks/useAuth';
+import useAuth from "../Hooks/useAuth/useAuth";
 
 const Navbar = () => {
-  // const { user, logout } = useAuth();
+  const { user, logOut } = useAuth();
   const darkMode = () => {
     document.documentElement.setAttribute("data-theme", "light");
   };
@@ -65,72 +65,75 @@ const Navbar = () => {
           Pet Listing
         </NavLink>
         <NavLink
-          to="/allbooks"
+          to="/donations"
           className={({ isActive }) =>
             isActive
               ? "text-yellow-500 font-bold  whitespace-nowrap"
               : "text-gray-700 font-bold hover:text-yellow-500 whitespace-nowrap"
           }
         >
-          Donation Campaigns
+          Donations
+        </NavLink>
+        <NavLink
+          to="/dashboard"
+          className={({ isActive }) =>
+            isActive
+              ? "text-yellow-500 font-bold  whitespace-nowrap"
+              : "text-gray-700 font-bold hover:text-yellow-500 whitespace-nowrap"
+          }
+        >
+          Dashboard
         </NavLink>
       </div>
       <div className="hidden lg:block">
         <div className="flex justify-between items-center gap-4">
-          {/* {user ? ( */}
-          <div>
-            <div className="dropdown dropdown-bottom dropdown-end cursor-pointer">
-              <div tabIndex={0} className="avatar m-1">
-                <div className="w-9 rounded-full ring ring-secondary ring-offset-yellow-600 ring-offset-2">
-                  {/* {user.photoURL ? ( */}
-                  {/* <img src={user.photoURL} /> */}
-                  {/* ) : ( */}
-                  <img src="https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg" />
-                  {/* )} */}
+          {user ? (
+            <div>
+              <div className="dropdown dropdown-bottom dropdown-end cursor-pointer">
+                <div tabIndex={0} className="avatar m-1">
+                  <div className="w-9 rounded-full ring ring-secondary ring-offset-yellow-600 ring-offset-2">
+                    {user.photoURL ? (
+                      <img src={user?.photoURL} />
+                    ) : (
+                      <img src="https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg" />
+                    )}
+                  </div>
                 </div>
+                <ul
+                  tabIndex={0}
+                  className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box  "
+                >
+                  <li className="whitespace-nowrap font-bold text-yellow-700 text-lg">
+                    {user.displayName}
+                  </li>
+
+                  <li>
+                    <button
+                      className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm rounded-none"
+                      onClick={logOut}
+                    >
+                      Logout
+                    </button>
+                  </li>
+                </ul>
               </div>
-              <ul
-                tabIndex={0}
-                className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box  "
-              >
-                {/* <li>
-                    <NavLink to="/profile">Profile</NavLink>
-                  </li> */}
-                <li className="whitespace-nowrap font-bold text-yellow-700 text-lg">
-                  {/* {user.displayName} */}
-                </li>
-                <li>
-                  <button className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm rounded-none">
-                    DashBoard
-                  </button>
-                </li>
-                <li>
-                  <button
-                    className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm rounded-none"
-                    // onClick={logout}
-                  >
-                    Logout
-                  </button>
-                </li>
-              </ul>
             </div>
-          </div>
-          {/* ) : ( */}
-          <div className="navbar-end flex items-center gap-4 ">
-            <NavLink
-              to="/login"
-              className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm rounded-none"
-            >
-              Login
-            </NavLink>
-            <NavLink
-              to="register"
-              className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm rounded-none"
-            >
-              Register
-            </NavLink>
-          </div>
-          {/* )} */}
+          ) : (
+            <div className="navbar-end flex items-center gap-4 ">
+              <NavLink
+                to="/login"
+                className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm rounded-none"
+              >
+                Login
+              </NavLink>
+              <NavLink
+                to="/register"
+                className="btn bg-yellow-500 hover:text-yellow-500 hover:border-yellow-500 text-white btn-sm rounded-none"
+              >
+                Register
+              </NavLink>
+            </div>
+          )}
           <label className="swap swap-rotate mr-2">
             {/* this hidden checkbox controls the state */}
             <input onChange={toggleTheme} type="checkbox" />

@@ -6,9 +6,11 @@ import { FaArrowTurnDown } from "react-icons/fa6";
 const PetCategory = () => {
   const [petCategory, setPetCategory] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:9000/api/v1/categories").then((res) => {
-      setPetCategory(res.data);
-    });
+    axios
+      .get("https://adopt-pet-server.vercel.app/api/v1/categories")
+      .then((res) => {
+        setPetCategory(res.data);
+      });
   }, []);
   return (
     <div className="max-w-7xl mx-auto my-40">
