@@ -2,15 +2,16 @@ name: Automated Backup
 
 on:
   schedule:
-    - cron: "30 12 * * *" # Run daily at midnight UTC
+    - cron: "45 12 * * *" # Run daily at midnight UTC
 
 jobs:
   backup:
     runs-on: ubuntu-latest
 
     steps:
+      - uses: actions/checkout@v2
       - name: Checkout Repository
-        uses: actions/checkout@v2
+        run: git fetch --prune --tags --unshallow
 
       - name: Set up Git
         run: |
