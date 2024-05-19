@@ -27,7 +27,7 @@ jobs:
           git push origin backup/daily/$DATE
 
       - name: Weekly Backup
-        if: ${{ github.event_name == 'schedule' && formatTime(github.event.scheduledAt, 'EEEE') == 'Sunday' }}
+        if: ${{formatTime(github.event.scheduledAt, 'EEEE') == 'Sunday' }}
         run: |
           WEEK=$(date +%Y-%V)
           git checkout main
