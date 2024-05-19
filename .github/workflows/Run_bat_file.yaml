@@ -2,7 +2,7 @@ name: Run .bat File
 
 on:
   schedule:
-    - cron: '0 15 * * *' # Run every day at 5:00 PM UTC
+    - cron: "0 15 * * *" # Run every day at 5:00 PM UTC
 
 jobs:
   run-bat:
@@ -13,4 +13,4 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Run .bat File
-        run: .\back_up.bat
+        run: .\backup_script.bat
