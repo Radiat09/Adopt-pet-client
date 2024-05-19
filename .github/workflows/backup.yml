@@ -9,9 +9,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
       - name: Checkout Repository
-        run: git fetch --prune --tags --unshallow
+        uses: actions/checkout@v2
 
       - name: Set up Git
         run: |
@@ -27,7 +26,7 @@ jobs:
           git push origin backup/daily/$DATE
 
       - name: Weekly Backup
-        if: ${{formatTime(github.event.scheduledAt, 'EEEE') == 'Sunday' }}
+        if: ${{github.event_name == 'schedule' && formatTime(github.event.scheduledAt, 'EEEE') == 'Sunday' }}
         run: |
           WEEK=$(date +%Y-%V)
           git checkout main
